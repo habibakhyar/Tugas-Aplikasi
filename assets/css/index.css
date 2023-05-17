@@ -1,6 +1,7 @@
 * {
   /* display: flex; */
   padding: 0;
+  list-style: none;
   margin: 0;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
@@ -66,6 +67,116 @@
   color: #000;
 }
 
-.section-content {
+/* .content {
+  margin-top: 2%;
+  display: auto;
+  background-color: blue;
+  border: 2px;
+  margin-left: 20px;
+  float: left;
   padding: 1rem;
+  width: 65%;
+}
+
+.content .information img{
+  width: 78px;
+  height: auto;
+} */
+
+.content {
+  margin-top: 30px;
+  display: inline-block; /* Changed 'auto' to 'inline-block' */
+  background-color: yellowgreen;
+  border: 2px;
+  margin-left: 20px;
+  padding: 1rem;
+  width: 69%;
+  justify-content: center; /* Added 'justify-content: center' */
+}
+
+.content .information {
+  float: right; /* Changed 'left' to 'right' */
+}
+
+.content .information h1{
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.content .information img {
+  width: 78px;
+  align-items: center;
+  justify-content: center;
+  float: right; /* Added 'float: right' */
+  height: auto;
+}
+
+
+/* .sidebar{
+  display: flex;
+  margin-top: 30px;
+  background-color: red;
+  margin-right: 20px;
+  float: right;
+  padding: 1rem;
+  width: 25%;
+}
+
+.sidebar .sidebox{
+  background-color: #f2f2f2;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 78%;
+  height: auto;
+  text-align: center;
+  margin: 0px;
+} */
+
+/* .sidebar {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 50px 15px;
+  float: right; 
+  margin-top: 30px;
+  background-color: #B7B78A;
+  margin-right: 20px;
+  justify-content: center;
+  padding: 1rem;
+  width: 25%;
+} */
+
+.sidebar {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 50px 15px;
+  float: right;
+  margin-top: 30px;
+  background-color: #B7B78A;
+  margin-right: 20px;
+  justify-content: center;
+  padding: 1rem;
+  width: 25%;
+  position: sticky; /* Added 'position: sticky' */
+  top: 30px; /* Added 'top' value to set the sticky position */
+}
+
+
+.sidebar .sidebox {
+  background-color: #f2f2f2;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 78%;
+  height: auto;
+  text-align: center;
+  margin: 0 auto; /* Changed 'margin: 0px;' to 'margin: 0 auto;' */
+}
+.sidebar .sidebox h1{
+  background-color: #003399;
+  font-size: 15pt;
+  color: white;
+  margin: 1px;
+  text-align: center;
 }
