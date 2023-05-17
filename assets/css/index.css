@@ -1,0 +1,71 @@
+* {
+  /* display: flex; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+}
+
+.section-header {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+
+}
+
+.title h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.description p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.logo-company {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+}
+
+.logo-company img {
+  max-height: 100%; /* Ensure the image does not exceed the height of the parent container */
+}
+
+.section-menu {
+  background-color: #b980ff;
+  padding: 1rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin: 0 1rem;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  color: #000;
+}
+
+.section-content {
+  padding: 1rem;
+}
